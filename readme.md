@@ -140,6 +140,12 @@ save_summary.py (Hook)
 
 ### 直接从 GitHub 安装插件
 
+添加市场（一次）
+```bash
+/plugin marketplace add github:Jackson7362085/context-management
+```
+
+安装插件
 ```bash
 /plugin install github:Jackson7362085/context-retrieval
 ```

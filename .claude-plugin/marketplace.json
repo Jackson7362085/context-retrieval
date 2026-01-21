@@ -1,0 +1,16 @@
+{
+    "name": "context-management",
+    "owner": {
+      "name": "Jackson"
+    },
+    "plugins": [
+      {
+        "name": "context-retrieval",
+        "source": {
+          "source": "github",
+          "repo": "Jackson7362085/context-retrieval"
+        }
+      }
+    ]
+  }
+  
