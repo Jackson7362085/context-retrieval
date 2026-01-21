@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+        "claude-context": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+              "-y",
+              "claude-context-mcp"
+            ],
+            "env": {}
+          }
+    }
+  }

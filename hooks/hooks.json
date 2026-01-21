@@ -1,0 +1,27 @@
+{
+    "hooks": {
+        "UserPromptSubmit": [
+          {
+            "matcher": "*",
+            "hooks": [
+              {
+                "type": "command",
+                "command": "python ${CLAUDE_PLUGIN_ROOT}/scripts/save_summary.py"
+  
+              }
+            ]
+          }
+        ],
+
+        "PreCompact": [
+            {
+              "matcher": "manual",
+              "hooks": [{ "type": "command", "command": "python ${CLAUDE_PLUGIN_ROOT}/scripts/save_summary_compact.py" }]
+            },
+            {
+              "matcher": "auto",
+              "hooks": [{ "type": "command", "command": "python ${CLAUDE_PLUGIN_ROOT}/scripts/save_summary_compact.py" }]
+            }
+          ]
+      }
+}
