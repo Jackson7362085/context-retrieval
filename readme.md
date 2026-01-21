@@ -142,12 +142,12 @@ save_summary.py (Hook)
 
 添加市场（一次）
 ```bash
-/plugin marketplace add github:Jackson7362085/context-management
+/plugin marketplace add Jackson7362085/context-retrieval
 ```
 
 安装插件
 ```bash
-/plugin install github:Jackson7362085/context-retrieval
+/plugin install context-retrieval
 ```
 
 安装完成后可用命令：
